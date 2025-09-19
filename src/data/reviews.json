@@ -1,0 +1,312 @@
+
+[
+  {
+    "ReviewId": 2,
+    "RecipeId": 992,
+    "AuthorId": 2008,
+    "AuthorName": "FoodCritic87",
+    "Rating": 5,
+    "Review": "These are better than any mashed potatoes I've ever had at a restaurant!",
+    "DateModified": "2000-01-25T21:44:00Z"
+  },
+  {
+    "ReviewId": 7,
+    "RecipeId": 4384,
+    "AuthorId": 1634,
+    "AuthorName": "Baker123",
+    "Rating": 4,
+    "Review": "Great cookie recipe! I added some walnuts for extra crunch and they turned out amazing.",
+    "DateSubmitted": "2001-10-17T16:49:59Z",
+    "DateModified": "2001-10-17T16:49:59Z"
+  },
+  {
+    "ReviewId": 12,
+    "RecipeId": 5678,
+    "AuthorId": 4567,
+    "AuthorName": "ThaiFood_Fan",
+    "Rating": 5,
+    "Review": "Absolutely delicious! Just the right amount of heat and so authentic tasting. Will definitely make again!",
+    "DateSubmitted": "2018-06-01T11:23:00Z",
+    "DateModified": "2018-06-01T11:23:00Z"
+  },
+  {
+    "ReviewId": 15,
+    "RecipeId": 5678,
+    "AuthorId": 5678,
+    "AuthorName": "SpicyLover",
+    "Rating": 4,
+    "Review": "Great flavor but a bit too spicy for my family. Next time I'll use fewer chilis. Still a winner!",
+    "DateSubmitted": "2018-07-12T18:40:00Z",
+    "DateModified": "2018-07-12T18:40:00Z"
+  },
+  {
+    "ReviewId": 18,
+    "RecipeId": 6789,
+    "AuthorId": 6789,
+    "AuthorName": "ItalianChef",
+    "Rating": 5,
+    "Review": "Perfect risotto! The technique is spot on. I added some truffle oil at the end for extra luxury.",
+    "DateSubmitted": "2019-11-05T20:15:00Z",
+    "DateModified": "2019-11-05T20:15:00Z"
+  },
+  {
+    "ReviewId": 22,
+    "RecipeId": 6789,
+    "AuthorId": 7890,
+    "AuthorName": "HomeCook2020",
+    "Rating": 4,
+    "Review": "Delicious but labor intensive with all the stirring. Worth it for a special occasion though!",
+    "DateSubmitted": "2020-01-15T19:30:00Z",
+    "DateModified": "2020-01-15T19:30:00Z"
+  },
+  {
+    "ReviewId": 25,
+    "RecipeId": 38,
+    "AuthorId": 8901,
+    "AuthorName": "SummerDessertLover",
+    "Rating": 5,
+    "Review": "Perfect summer treat! So refreshing and the blueberry flavor really shines through.",
+    "DateSubmitted": "2019-08-03T14:25:00Z",
+    "DateModified": "2019-08-03T14:25:00Z"
+  },
+  {
+    "ReviewId": 28,
+    "RecipeId": 38,
+    "AuthorId": 9012,
+    "AuthorName": "HealthyEater",
+    "Rating": 4,
+    "Review": "Love that this is low-fat but still delicious. I used Greek yogurt for extra protein.",
+    "DateSubmitted": "2020-07-22T16:18:00Z",
+    "DateModified": "2020-07-22T16:18:00Z"
+  },
+  {
+    "ReviewId": 31,
+    "RecipeId": 992,
+    "AuthorId": 1023,
+    "AuthorName": "GarlicLover",
+    "Rating": 5,
+    "Review": "The garlic flavor is perfect! I added a little extra and it was heavenly. So creamy!",
+    "DateSubmitted": "2021-11-25T17:40:00Z",
+    "DateModified": "2021-11-25T17:40:00Z"
+  },
+  {
+    "ReviewId": 35,
+    "RecipeId": 4384,
+    "AuthorId": 2345,
+    "AuthorName": "ChocolateAddict",
+    "Rating": 5,
+    "Review": "These are PERFECT chocolate chip cookies. Crisp edges, chewy centers, and lots of chocolate chips!",
+    "DateSubmitted": "2022-02-14T13:50:00Z",
+    "DateModified": "2022-02-14T13:50:00Z"
+  },
+  {
+    "ReviewId": 40,
+    "RecipeId": 7890,
+    "AuthorId": 4567,
+    "AuthorName": "SaladFan",
+    "Rating": 4,
+    "Review": "Fresh and delicious! The feta and olives make it so flavorful. Perfect for lunch.",
+    "DateSubmitted": "2015-07-15T12:30:00Z",
+    "DateModified": "2015-07-15T12:30:00Z"
+  },
+  {
+    "ReviewId": 45,
+    "RecipeId": 8901,
+    "AuthorId": 5678,
+    "AuthorName": "SoupLover",
+    "Rating": 5,
+    "Review": "Comforting and healthy. I added some beans for extra protein. Great recipe!",
+    "DateSubmitted": "2017-03-05T14:20:00Z",
+    "DateModified": "2017-03-05T14:20:00Z"
+  },
+  {
+    "ReviewId": 50,
+    "RecipeId": 9012,
+    "AuthorId": 6789,
+    "AuthorName": "GrillMaster",
+    "Rating": 5,
+    "Review": "Juicy and flavorful! The lemon marinade is spot on. Will be my go-to chicken recipe.",
+    "DateSubmitted": "2020-08-01T18:45:00Z",
+    "DateModified": "2020-08-01T18:45:00Z"
+  },
+  {
+    "ReviewId": 55,
+    "RecipeId": 1013,
+    "AuthorId": 7890,
+    "AuthorName": "BrunchEnthusiast",
+    "Rating": 4,
+    "Review": "Simple and tasty. The poached egg makes it special. Added some hot sauce for kick.",
+    "DateSubmitted": "2016-04-10T10:15:00Z",
+    "DateModified": "2016-04-10T10:15:00Z"
+  },
+  {
+    "ReviewId": 60,
+    "RecipeId": 1114,
+    "AuthorId": 8901,
+    "AuthorName": "PastaFan",
+    "Rating": 5,
+    "Review": "Authentic and creamy. Best carbonara I've made at home. No cream needed!",
+    "DateSubmitted": "2018-12-15T20:10:00Z",
+    "DateModified": "2018-12-15T20:10:00Z"
+  },
+  {
+    "ReviewId": 65,
+    "RecipeId": 1215,
+    "AuthorId": 9012,
+    "AuthorName": "SmoothieKing",
+    "Rating": 4,
+    "Review": "Thick and satisfying. Used almond milk for dairy-free version. Delicious!",
+    "DateSubmitted": "2021-05-02T09:00:00Z",
+    "DateModified": "2021-05-02T09:00:00Z"
+  },
+  {
+    "ReviewId": 70,
+    "RecipeId": 1316,
+    "AuthorId": 1023,
+    "AuthorName": "StirFryPro",
+    "Rating": 5,
+    "Review": "Quick weeknight meal. The sauce is perfect. Broccoli was crisp-tender.",
+    "DateSubmitted": "2019-10-20T18:30:00Z",
+    "DateModified": "2019-10-20T18:30:00Z"
+  },
+  {
+    "ReviewId": 75,
+    "RecipeId": 1417,
+    "AuthorId": 1124,
+    "AuthorName": "AppleDessertFan",
+    "Rating": 5,
+    "Review": "Warm and comforting. The oat topping is crunchy and delicious with vanilla ice cream.",
+    "DateSubmitted": "2005-11-01T16:00:00Z",
+    "DateModified": "2005-11-01T16:00:00Z"
+  },
+  {
+    "ReviewId": 80,
+    "RecipeId": 1518,
+    "AuthorId": 1225,
+    "AuthorName": "QuinoaQueen",
+    "Rating": 4,
+    "Review": "Fresh and filling. Great for meal prep. The lemon dressing ties it all together.",
+    "DateSubmitted": "2022-06-12T13:45:00Z",
+    "DateModified": "2022-06-12T13:45:00Z"
+  },
+  {
+    "ReviewId": 85,
+    "RecipeId": 1619,
+    "AuthorId": 1326,
+    "AuthorName": "TacoTuesday",
+    "Rating": 5,
+    "Review": "Shrimp tacos are a hit! The lime crema is the perfect touch. So fresh and zesty.",
+    "DateSubmitted": "2020-09-18T19:20:00Z",
+    "DateModified": "2020-09-18T19:20:00Z"
+  },
+  {
+    "ReviewId": 90,
+    "RecipeId": 1720,
+    "AuthorId": 1427,
+    "AuthorName": "BrownieLover",
+    "Rating": 5,
+    "Review": "Fudgy perfection! These are my new favorite brownies. Rich chocolate flavor.",
+    "DateSubmitted": "2014-12-25T21:00:00Z",
+    "DateModified": "2014-12-25T21:00:00Z"
+  },
+  {
+    "ReviewId": 91,
+    "RecipeId": 992,
+    "AuthorId": 1528,
+    "AuthorName": "VeggieDelight",
+    "Rating": 4,
+    "Review": "Creamy and flavorful mashed potatoes. I added roasted garlic for an extra twist.",
+    "DateSubmitted": "2023-03-10T14:20:00Z",
+    "DateModified": "2023-03-10T14:20:00Z"
+  },
+  {
+    "ReviewId": 92,
+    "RecipeId": 5678,
+    "AuthorId": 1629,
+    "AuthorName": "CurryEnthusiast",
+    "Rating": 5,
+    "Review": "This Thai curry is spot on! The coconut milk balances the spice perfectly.",
+    "DateSubmitted": "2023-05-15T17:30:00Z",
+    "DateModified": "2023-05-15T17:30:00Z"
+  },
+  {
+    "ReviewId": 93,
+    "RecipeId": 6789,
+    "AuthorId": 1730,
+    "AuthorName": "RiceLover88",
+    "Rating": 3,
+    "Review": "Good base recipe, but I had to adjust the stock amount. Still tasty overall.",
+    "DateSubmitted": "2023-07-22T19:45:00Z",
+    "DateModified": "2023-07-22T19:45:00Z"
+  },
+  {
+    "ReviewId": 94,
+    "RecipeId": 38,
+    "AuthorId": 1831,
+    "AuthorName": "BerryBaker",
+    "Rating": 5,
+    "Review": "Light and fluffy blueberry muffins. Kids loved them for breakfast!",
+    "DateSubmitted": "2023-09-05T10:15:00Z",
+    "DateModified": "2023-09-05T10:15:00Z"
+  },
+  {
+    "ReviewId": 95,
+    "RecipeId": 7890,
+    "AuthorId": 1932,
+    "AuthorName": "MediterraneanFan",
+    "Rating": 4,
+    "Review": "Refreshing Greek salad. I added cherry tomatoes for more color and flavor.",
+    "DateSubmitted": "2023-11-12T12:00:00Z",
+    "DateModified": "2023-11-12T12:00:00Z"
+  },
+  {
+    "ReviewId": 96,
+    "RecipeId": 8901,
+    "AuthorId": 2033,
+    "AuthorName": "WinterSoup",
+    "Rating": 5,
+    "Review": "Hearty lentil soup that's perfect for cold days. So nourishing!",
+    "DateSubmitted": "2024-01-20T15:50:00Z",
+    "DateModified": "2024-01-20T15:50:00Z"
+  },
+  {
+    "ReviewId": 97,
+    "RecipeId": 9012,
+    "AuthorId": 2134,
+    "AuthorName": "BBQKing",
+    "Rating": 4,
+    "Review": "Grilled chicken with great char. Marinated overnight for best results.",
+    "DateSubmitted": "2024-03-08T18:10:00Z",
+    "DateModified": "2024-03-08T18:10:00Z"
+  },
+  {
+    "ReviewId": 98,
+    "RecipeId": 1114,
+    "AuthorId": 2235,
+    "AuthorName": "ItalianFoodie",
+    "Rating": 5,
+    "Review": "Classic carbonara done right. The guanciale makes all the difference.",
+    "DateSubmitted": "2024-05-14T20:25:00Z",
+    "DateModified": "2024-05-14T20:25:00Z"
+  },
+  {
+    "ReviewId": 99,
+    "RecipeId": 1316,
+    "AuthorId": 2336,
+    "AuthorName": "AsianCuisinePro",
+    "Rating": 5,
+    "Review": "Stir-fry veggies and chicken were tender and full of flavor. Quick and easy!",
+    "DateSubmitted": "2024-07-30T16:40:00Z",
+    "DateModified": "2024-07-30T16:40:00Z"
+  },
+  {
+    "ReviewId": 100,
+    "RecipeId": 1720,
+    "AuthorId": 2437,
+    "AuthorName": "DessertDevotee",
+    "Rating": 4,
+    "Review": "Rich brownies with nuts. Baked a bit longer for fudgier texture.",
+    "DateSubmitted": "2024-09-18T21:05:00Z",
+    "DateModified": "2024-09-18T21:05:00Z"
+  }
+]

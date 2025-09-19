@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 33% 98%;
+    --foreground: 20 14.3% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+
+    --primary: 24 95% 70%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 30 5% 96%;
+    --secondary-foreground: 24 9.8% 10%;
+
+    --muted: 30 5% 96%;
+    --muted-foreground: 25 5.3% 44.7%;
+
+    --accent: 30 5% 94%;
+    --accent-foreground: 24 9.8% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24 5.4% 63.9%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+
+    --primary: 24 95% 60%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 60 9.1% 97.8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 24 5.4% 63.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  /* Scrollbar styling */
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply bg-primary/40 rounded-full;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/60;
+  }
+
+  /* Transitions */
+  .page-transition-enter {
+    @apply opacity-0;
+  }
+
+  .page-transition-enter-active {
+    @apply opacity-100 transition-opacity duration-300;
+  }
+
+  .page-transition-exit {
+    @apply opacity-100;
+  }
+
+  .page-transition-exit-active {
+    @apply opacity-0 transition-opacity duration-300;
+  }
+
+  /* Food card hover effect */
+  .recipe-card {
+    @apply transition-all duration-500 ease-in-out;
+  }
+
+  .recipe-card:hover {
+    @apply transform scale-[1.02] shadow-lg;
+  }
+
+  .recipe-card-image-container {
+    @apply overflow-hidden rounded-t-xl;
+  }
+
+  .recipe-card-image {
+    @apply transition-transform duration-700 ease-in-out;
+  }
+
+  .recipe-card:hover .recipe-card-image {
+    @apply transform scale-110;
+  }
+
+  /* Button hover effects */
+  .btn-hover-effect {
+    @apply relative overflow-hidden transition-all duration-300;
+  }
+
+  .btn-hover-effect::after {
+    content: '';
+    @apply absolute inset-0 bg-white/20 scale-x-0 origin-left transition-transform duration-300 ease-out;
+  }
+
+  .btn-hover-effect:hover::after {
+    @apply scale-x-100;
+  }
+
+  /* Loader animation */
+  .loader {
+    @apply w-12 h-12 rounded-full border-4 border-primary/30 border-t-primary animate-spin;
+  }
+
+  /* Search input animation */
+  .search-input-container {
+    @apply relative overflow-hidden;
+  }
+
+  .search-input-container::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-[2px] bg-primary scale-x-0 transition-transform duration-300 origin-center;
+  }
+
+  .search-input-container:focus-within::after {
+    @apply scale-x-100;
+  }
+
+  /* Rating stars animation */
+  .star-rating label {
+    @apply transition-transform duration-200;
+  }
+
+  .star-rating:hover label:hover {
+    @apply transform scale-125;
+  }
+
+  /* Custom checkbox */
+  .custom-checkbox {
+    @apply appearance-none w-5 h-5 rounded border border-primary/30 bg-white transition-all duration-200 relative;
+  }
+
+  .custom-checkbox:checked {
+    @apply bg-primary border-primary;
+  }
+
+  .custom-checkbox:checked::after {
+    content: '✓';
+    @apply absolute inset-0 flex items-center justify-center text-white font-bold text-sm;
+  }
+
+  /* Gallery animation */
+  .gallery-image {
+    @apply opacity-0 transition-all duration-500 ease-in-out;
+    animation: gallery-fade-in 0.5s ease-in-out forwards;
+  }
+
+  @keyframes gallery-fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Navigation indicator */
+  .nav-indicator {
+    @apply absolute -bottom-1 left-0 h-0.5 bg-primary rounded-full transition-all duration-300 ease-in-out;
+  }
+}

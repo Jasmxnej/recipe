@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": "demo1",
+    "username": "demo",
+    "email": "demo@example.com",
+    "password": "password123",
+    "name": "Demo User",
+    "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=demo&backgroundColor=ffdfbf"
+  },
+  {
+    "id": "user1",
+    "username": "johndoe",
+    "email": "john@example.com",
+    "password": "password123",
+    "name": "John Doe",
+    "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=johndoe&backgroundColor=ffdfbf"
+  },
+  {
+    "id": "user2",
+    "username": "janedoe",
+    "email": "jane@example.com",
+    "password": "password123",
+    "name": "Jane Doe",
+    "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=janedoe&backgroundColor=ffdfbf"
+  }
+]
